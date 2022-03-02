@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Poppins:wght@300&display=swap");
+.n_body {
+  text-align: center;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+
+  .n_logo {
+    font-family: "Poppins", sans-serif;
+    color: #00c7be;
+    font-size: 30px;
+    border: 1px solid red;
+    margin-left: 5px;
+    font-weight: 800;
+    justify-self: flex-start;
+  }
+  .n_ul {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    height: 100%;
+    max-width: 650px;
+    justify-content: space-between;
+
+    li{
+        list-style-type: none;
+        font-size: 18px;
+
+
+        a{
+            text-decoration: none;
+            color: #08102D;
+            p{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+            }
+        }
+    }
+  }
+  .n_download {
+    margin-right: 5px;
+    width: 20%;
+    height: 90%;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 6px;
+    max-width: 220px;
+    background-color: #045c58;
+    border: none;
+  }
+}
