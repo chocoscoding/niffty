@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <React.Fragment> 
         <Navbar/>
+        
     </React.Fragment>
   )
 }

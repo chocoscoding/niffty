@@ -25,25 +25,25 @@
     max-width: 650px;
     justify-content: space-between;
 
-    li{
-        list-style-type: none;
-        font-size: 18px;
+    li {
+      list-style-type: none;
+      font-size: 18px;
 
-
-        a{
-            text-decoration: none;
-            color: #08102D;
-            p{
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-            }
+      a {
+        text-decoration: none;
+        color: #08102d;
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
         }
+      }
     }
   }
   .n_download {
     margin-right: 5px;
     width: 20%;
+
     height: 90%;
     color: #ffffff;
     font-size: 18px;
@@ -53,14 +53,14 @@ font-size: 18px;
     border: none;
   }
 
-  .n_underline{
-    border: 1px solid #045C58;
+  .n_underline {
+    border: 1px solid #045c58;
     position: absolute;
     width: 10%;
     background-color: #045c58;
     border-radius: 10px;
     top: 6%;
-    
+
     max-width: 50px;
   }
 }

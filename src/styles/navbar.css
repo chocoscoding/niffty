@@ -47,7 +47,7 @@
 
 .n_body .n_ul li a {
   text-decoration: none;
-  color: #08102D;
+  color: #08102d;
 }
 
 .n_body .n_ul li a p {
@@ -69,7 +69,7 @@
 }
 
 .n_body .n_underline {
-  border: 1px solid #045C58;
+  border: 1px solid #045c58;
   position: absolute;
   width: 10%;
   background-color: #045c58;
