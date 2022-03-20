@@ -1,0 +1,121 @@
+.body {
+  height: 700px;
+  background: #045c58;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.body img {
+  height: 90%;
+  bottom: 0;
+  position: absolute;
+}
+
+.body .mcntn {
+  margin-top: 6rem;
+  margin-right: 6rem;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  position: absolute;
+  background: #045c58;
+  right: 0;
+  color: #fff;
+}
+
+.body .mcntn .cont {
+  margin-left: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.body .mcntn .cont .line {
+  width: 4px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 1.53rem;
+  background-color: #00c7be;
+}
+
+.body .mcntn .cont .innerc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+}
+
+.body .mcntn .cont .innerc h3 {
+  line-height: 30px;
+  margin: 1px 0;
+  letter-spacing: 0.01em;
+}
+
+.body .mcntn .cont .innerc p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+}
+
+.body .mcntn .getstarted {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 98%;
+  height: 63px;
+  border: none;
+  margin-left: 1rem;
+  max-width: 340px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #045c58;
+  cursor: pointer;
+}
+
+.body .mcntn .getstarted svg {
+  line-height: 62px;
+  margin-left: 0.5rem;
+  height: auto;
+  -webkit-animation: bounce 0.3s ease-in infinite;
+          animation: bounce 0.3s ease-in infinite;
+}
+
+@media screen and (min-width: 1600px) {
+  .body {
+    border-radius: 10px;
+  }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateX(10);
+            transform: translateX(10);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateX(10);
+            transform: translateX(10);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+/*# sourceMappingURL=middle.module.css.map */
