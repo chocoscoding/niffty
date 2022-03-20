@@ -14,6 +14,14 @@
   position: absolute;
 }
 
+@media screen and (max-width: 728px) {
+  .body img {
+    display: none;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+}
+
 .body .mcntn {
   margin-top: 6rem;
   margin-right: 6rem;
@@ -89,6 +97,13 @@
   height: auto;
   -webkit-animation: bounce 0.3s ease-in infinite;
           animation: bounce 0.3s ease-in infinite;
+}
+
+@media screen and (max-width: 728px) {
+  .body .mcntn {
+    margin-right: 0.21rem;
+    position: relative;
+  }
 }
 
 @media screen and (min-width: 1600px) {

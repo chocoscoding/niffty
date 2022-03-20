@@ -6,7 +6,7 @@ import { FiDownload } from "react-icons/fi";
 
 const Navbar = () => {
   const [currentp, setcurrentp] = useState("market");
-  const [navopen, setNavopen] = useState(false);
+  const [navopen, setNavopen] = useState(true);
 
   function navc(type) {
     if (type === "market") {

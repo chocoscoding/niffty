@@ -9,6 +9,11 @@
     height: 90%;
     bottom: 0;
     position: absolute;
+
+    @media screen and (max-width: 728px) {
+      display: none;
+      transition: 0.3s ease-in;
+    }
   }
 
   .mcntn {
@@ -75,6 +80,11 @@
         height: auto;
         animation: bounce 0.3s ease-in infinite;
       }
+    }
+
+    @media screen and (max-width: 728px) {
+      margin-right: 0.21rem;
+      position: relative;
     }
   }
 
