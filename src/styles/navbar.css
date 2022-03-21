@@ -256,4 +256,19 @@
     border: none;
   }
 }
+
+.ft {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  left: 1rem;
+  position: absolute;
+}
+
+@media screen and (max-width: 710px) {
+  .ft {
+    top: 0.2rem;
+    left: auto;
+    margin-bottom: 5rem;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */
