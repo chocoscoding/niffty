@@ -1,0 +1,52 @@
+.cover {
+  position: relative;
+
+  .maincont {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    .inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 60%;
+
+      .row {
+        width: 141px;
+        min-width: 140px;
+        max-width: 200px;
+
+        h2 {
+          font-weight: 700;
+        }
+      }
+
+      @media screen and (max-width: 710px) {
+        width: 99%;
+      }
+      @media screen and (max-width: 270px) {
+        width: 90%;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    align-items: center;
+    background: #00c7be;
+    height: 3rem;
+    font-size: 1.6rem;
+    .btside {
+      display: flex;
+      justify-content: space-between;
+      width: 30%;
+      min-width: 200px;
+      max-width: 300px;
+      color: #fff;
+    }
+  }
+}

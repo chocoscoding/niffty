@@ -1,0 +1,132 @@
+.body {
+  height: 700px;
+  background: #00c7be;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.body img {
+  height: 90%;
+  bottom: 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 728px) {
+  .body img {
+    display: none;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+  }
+}
+
+.body .mcntn {
+  padding-top: 6rem;
+  margin-right: 4rem;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  position: absolute;
+  background: #00c7be;
+  right: 0;
+  color: #fff;
+}
+
+.body .mcntn h3 {
+  line-height: 30px;
+  margin: 1px 0;
+  margin-left: 20px;
+  letter-spacing: 0.01em;
+}
+
+.body .mcntn .cont {
+  margin-left: 1rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.body .mcntn .cont .icon {
+  width: 50px;
+  margin-right: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .mcntn .cont .icon .btc {
+  display: block !important;
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+
+.body .mcntn .cont .innerc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+}
+
+.body .mcntn .cont .innerc h3 {
+  line-height: 30px;
+  margin: 1px 0;
+  letter-spacing: 0.01em;
+}
+
+.body .mcntn .cont .innerc p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+}
+
+.body .mcntn .getstarted {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 98%;
+  height: 63px;
+  border: none;
+  margin-left: 1rem;
+  max-width: 340px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #045c58;
+  cursor: pointer;
+}
+
+.body .mcntn .getstarted svg {
+  line-height: 62px;
+  margin-left: 0.5rem;
+  height: auto;
+}
+
+@media screen and (max-width: 728px) {
+  .body .mcntn {
+    margin-right: 0.21rem;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .body {
+    border-radius: 10px;
+  }
+}
+/*# sourceMappingURL=middle3.module.css.map */

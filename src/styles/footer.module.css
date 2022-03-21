@@ -1,0 +1,79 @@
+.cover {
+  position: relative;
+}
+
+.cover .maincont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cover .maincont .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+}
+
+.cover .maincont .inner .row {
+  width: 141px;
+  min-width: 140px;
+  max-width: 200px;
+}
+
+.cover .maincont .inner .row h2 {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 710px) {
+  .cover .maincont .inner {
+    width: 99%;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .cover .maincont .inner {
+    width: 90%;
+  }
+}
+
+.cover .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #00c7be;
+  height: 3rem;
+  font-size: 1.6rem;
+}
+
+.cover .bottom .btside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  min-width: 200px;
+  max-width: 300px;
+  color: #fff;
+}
+/*# sourceMappingURL=footer.module.css.map */

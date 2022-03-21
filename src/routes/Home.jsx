@@ -1,6 +1,14 @@
 import React from "react";
 import "../styles/homepage.css";
-import { Navbar, Header, Middle1 } from "../components";
+import {
+  Navbar,
+  Header,
+  Middle1,
+  Middle2,
+  Middle3,
+  Middle4,
+  Footer,
+} from "../components";
 
 const Home = () => {
   return (
@@ -8,6 +16,10 @@ const Home = () => {
       <Navbar />
       <Header />
       <Middle1 />
+      <Middle2 />
+      <Middle3 />
+      <Middle4 />
+      <Footer />
     </React.Fragment>
   );
 };

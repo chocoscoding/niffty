@@ -1,3 +1,7 @@
 export { default as Navbar } from './Navbar.jsx'
 export { default as Header } from './Header.jsx'
 export { default as Middle1 } from './Middle1.jsx'
+export { default as Middle2 } from './Middle2.jsx'
+export { default as Middle3 } from './Middle3.jsx'
+export { default as Middle4 } from './Middle4.jsx'
+export { default as Footer } from './Footer.jsx'

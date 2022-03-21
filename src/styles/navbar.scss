@@ -190,3 +190,15 @@
     }
   }
 }
+
+.ft {
+  align-self: flex-start;
+  left: 1rem;
+  position: absolute;
+
+  @media screen and (max-width: 710px) {
+    top: 0.2rem;
+    left: auto;
+    margin-bottom: 5rem;
+  }
+}
